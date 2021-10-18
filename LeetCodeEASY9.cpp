@@ -1,6 +1,7 @@
-/*
-
 // Leetcode 9: Palidrome Number
+
+//Problem: Given an integer x, return true if x is palindrome integer.
+
 // Here I am using the code from Leetcode 7 (Reverse Integer) and applying a check if it matches the original output.
 
 #include <iostream>
@@ -34,7 +35,3 @@ int main() {
 	
 
 }
-
-
-
-*/
