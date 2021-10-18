@@ -1,7 +1,9 @@
-/*
-
 //Leetcode 20: Valid Parentheses
+
+//Problem: Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
 //for (auto s : s1){} Range for loop
+
 #include<iostream>
 #include<vector>
 #include<complex>
@@ -24,4 +26,3 @@ int main() {
 
 }
 
-*/
