@@ -1,9 +1,10 @@
-/*
-
 // Leetcode 13: Roman Numeral To Integer
-//Converting roman numerals to their integer value.
+
+//Problem: Given a roman numeral input, output the integer value. 
+
 //The key was to realize you can simply loop through each value in the input 
 // Add if the current numeral is larger. Subtract if the current value is smaller.
+
 #include <iostream>
 #include<unordered_map>
 
@@ -44,5 +45,3 @@ int main() {
 
 
 }
-
-*/
