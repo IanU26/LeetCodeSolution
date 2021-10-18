@@ -1,4 +1,3 @@
-/*
 
 // LeetCode 1: Two Sum 
 // SOLVED
@@ -37,7 +36,7 @@ public:
 	}
 };
 
-
+//Example with input vector being (3,2,4)
 int main() {
 	Solution FirstAttempt;
 	std::vector<int> v = {3,2,4};
