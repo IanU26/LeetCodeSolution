@@ -1,6 +1,7 @@
-
 // LeetCode 1: Two Sum 
-// SOLVED
+
+// Problem: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
 // METHOD: One go through. Traverse the vector and input the values (of the vector) as keys (in a hashmap) and 
 // the location of the value (in the vector 0,1,2,etc.) as the T (in the hashmap). The loop starts by subtracting the target
 // by the current value in the vector(yielding the number needed to add to the target) and checking if it is in the hashmap. 
@@ -46,34 +47,3 @@ int main() {
 
 	return 0;
 }
-
-
-
-//Notes on how to use hashmaps and vectors. 
-
-/*
-//How to create a Hashmap and access a single value in the Hashmap. 
-//All that is required is defining what datatype will be used. 
-int main() {
-	std::unordered_map<std::string, int> umap;
-	umap["zero"] = 0;
-	umap["one"] = 1;
-	umap["two"] = 2;
-	umap["three"] = 3;
-	umap["four"] = 4;
-	
-	if (umap.find("zero") != umap.end()) {
-		std::cout << umap["one"];
-	}
-	return 0;
-}
-*/
-
-/*
-//Working with vectors
-int main() {
-	std::vector<int> nums = { 10,20,30 };
-	std::cout << nums[0];
-}
-
-*/
